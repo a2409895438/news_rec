@@ -1,1 +1,3 @@
 data_path/*
+tmp_results/*
+*.pyc

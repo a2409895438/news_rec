@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import pandas as pd
 from collections import defaultdict
-from utils import *
+from ..utils import *
 
 
 def itemcf_sim(df,save_path='../tmp_results/'):
