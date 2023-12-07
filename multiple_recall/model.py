@@ -8,6 +8,9 @@ from ..utils import *
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import LabelEncoder
 from deepctr.feature_column import SparseFeat, VarLenSparseFeat
+from deepmatch.models import *
+from deepmatch.utils import sampledsoftmaxloss
+from tensorflow.python.keras.models import Model
 
 
 def itemcf_sim(df, item_created_time_dict,save_path):
