@@ -1,7 +1,7 @@
 faiss-cpu==1.7.4
 deepctr==0.9.3
 deepmatch==0.3.1
-tensorflow==2.13.1
+tensorflow==2.12
 pandas==2.0.3
 tqdm==4.66.1
 scikit-learn
